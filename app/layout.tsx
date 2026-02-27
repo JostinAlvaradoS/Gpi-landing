@@ -1,9 +1,9 @@
+import React, { ReactNode } from 'react'
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'Gestión Pública Ecuador | GPI - Gestión Pública Inteligente',
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     type: 'website',
   },
   icons: {
-    icon: '/images/gpi-app-icon.png',
-    apple: '/images/gpi-app-icon.png',
+    icon: '/Gpi-landing/images/gpi-app-icon.png',
+    apple: '/Gpi-landing/images/gpi-app-icon.png',
   },
 }
 
@@ -34,14 +34,13 @@ export const viewport: Viewport = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+}: {
+  children: ReactNode
+}) {
   return (
     <html lang="es">
-      <body className="font-sans antialiased">
+      <body className={`${inter.className} antialiased`}>
         {children}
-        <Analytics />
       </body>
     </html>
   )

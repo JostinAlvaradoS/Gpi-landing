@@ -13,7 +13,7 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 lg:px-8">
         <Link href="/" className="flex items-center gap-2.5">
           <Image
-            src="/images/gpi-app-icon.png"
+            src="/Gpi-landing/images/gpi-app-icon.png"
             alt="GPI Isotipo"
             width={36}
             height={36}
