@@ -18,6 +18,10 @@ export const metadata: Metadata = {
     locale: 'es_EC',
     type: 'website',
   },
+  icons: {
+    icon: '/images/gpi-app-icon.png',
+    apple: '/images/gpi-app-icon.png',
+  },
 }
 
 export const viewport: Viewport = {
