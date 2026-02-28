@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     type: 'website',
   },
   icons: {
-    icon: '/Gpi-landing/images/gpi-app-icon.png',
-    apple: '/Gpi-landing/images/gpi-app-icon.png',
+    icon: '/images/gpi-app-icon.png',
+    apple: '/images/gpi-app-icon.png',
   },
 }
 

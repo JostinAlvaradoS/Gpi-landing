@@ -52,7 +52,7 @@ export function ProductSpotlight() {
                 <div className="hidden w-48 border-r border-border bg-[#003B72]/5 p-3 sm:block">
                   <div className="mb-4 flex items-center gap-2 px-2">
                     <Image
-                      src="/Gpi-landing/images/gpi-app-icon.png"
+                      src="/images/gpi-app-icon.png"
                       alt="GPI"
                       width={28}
                       height={28}
@@ -81,7 +81,7 @@ export function ProductSpotlight() {
                 {/* Main content area */}
                 <div className="flex-1">
                   <Image
-                    src="/Gpi-landing/images/app-dashboard.jpg"
+                    src="/images/app-dashboard.jpg"
                     alt="Vista del dashboard principal de la aplicaci\u00f3n GPI con m\u00e9tricas y visualizaciones de datos"
                     width={500}
                     height={350}

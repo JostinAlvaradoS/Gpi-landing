@@ -79,7 +79,7 @@ export function Footer() {
             <div className="flex flex-col gap-4">
               <Link href="/" className="flex items-center gap-2.5">
                 <Image
-                  src="/Gpi-landing/images/gpi-app-icon.png"
+                  src="/images/gpi-app-icon.png"
                   alt="GPI"
                   width={32}
                   height={32}

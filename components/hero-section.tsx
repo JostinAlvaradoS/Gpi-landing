@@ -67,7 +67,7 @@ export function HeroSection() {
                   )}
                 >
                   <Image
-                    src="/Gpi-landing/images/gpi-banner.jpeg"
+                    src="/images/gpi-banner.jpeg"
                     alt="GPI banner con logotipo oficial"
                     width={680}
                     height={200}
@@ -91,7 +91,7 @@ export function HeroSection() {
                   )}
                 >
                   <Image
-                    src="/Gpi-landing/images/gpi-laptop-dashboard.jpeg"
+                    src="/images/gpi-laptop-dashboard.jpeg"
                     alt="Dashboard de GPI con sus diferentes modulos"
                     width={680}
                     height={450}
@@ -115,7 +115,7 @@ export function HeroSection() {
                   )}
                 >
                   <Image
-                    src="/Gpi-landing/images/gpi-phone-hand.png"
+                    src="/images/gpi-phone-hand.png"
                     alt="Smartphone con la app GPI abierta"
                     width={500}
                     height={340}
